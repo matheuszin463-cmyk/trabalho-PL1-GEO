@@ -1,0 +1,139 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap');
+
+body { font-family: 'Inter', sans-serif; }
+h1, h2, .btn { font-family: 'Space Grotesk', sans-serif; }
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background-image: url('fotos/boanoitecinderela.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+.hed {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+
+.header {
+    padding: 1.5rem 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.header .hed {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+      font-size: 2.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, #002794, #76a7cf);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      display: inline-block;
+      color: transparent;
+      background-clip: text;
+}
+
+.nav a {
+    color: #354dd4;
+    margin-left: 2rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: color 0.3s;
+    text-decoration: none;
+
+}
+
+.nav a:hover {
+    color: #ffffff;
+}
+
+body{
+
+    background-image : url(ChatGPT\ Image\ Nov\ 6\,\ 2025\,\ 04_59_40\ PM.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#div1{
+
+ padding-left: 10px ;  border-radius: 20px; display: flex; align-items:center; justify-content:center; text-align: center; gap: 10px; flex-direction:column;
+
+}
+
+#resumdiv{
+
+background: linear-gradient(to right, #0072ff, #0073ff00);
+width: 500px; height: 45px;
+border-top-left-radius: 10px; border-bottom-left-radius: 10px;
+padding-left: 40px;
+
+}
+
+#espaço1{
+    
+width: 100vw; height: 100vh; background-color: rgba(0, 195, 249, 0); border: 1px solid rgba(0, 0, 0, 0); display: flex; align-items:center; justify-content:center; 
+
+
+}
+
+#espaço2{
+width: 1280px; height: 50px; background-color: rgba(0, 195, 249, 0); border: 1px solid rgba(0, 0, 0, 0); display: flex;  flex-direction:column; gap: 40px; align-items:center;
+
+
+}
+#esp2div1{
+
+display: flex; align-items:center; 
+
+}
+#esp2div1:hover{
+
+     border-end-start-radius: 30px ; border-top-left-radius: 30px;
+    transform: scale(1.05);
+    filter: brightness(1.2);
+}
+
+#esp2div2{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+  width: 970px; height: 100vh; background-color: rgb(85, 85, 85); border-end-start-radius: 30px ; border-top-left-radius: 30px; padding-top: 20px; padding-left: 20px;
+}
+#separaComponentes{
+
+    display: flex;
+
+}
+#componem{
+
+width: 200px;
+height: 20px;
+background-color: #002794;
+
+}
+#div2{
+    width: 600px; height: 220px; background-color: rgba(85, 85, 85, 0.492); border-end-start-radius: 30px ; border-top-left-radius: 30px; padding-top: 20px; padding-left: 20px;
+}
+#div3{background-color: rgba(65, 68, 71, 0.476); padding-left: 35px ; width: 850px; height: 100px; border-radius: 20px; }
