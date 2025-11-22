@@ -1,0 +1,245 @@
+/* === Reset e base === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-image: url('fotos/boanoitecinderela.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #e7e7e7;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+h1, h2, .btn {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+/* === Navbar === */
+.navbar {
+  padding: 1.5rem 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.navbar-brand {
+  font-size: 1.8rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, #002794, #76a7cf);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav-link {
+  color: #354dd4;
+  margin-left: 2rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #ffffff;
+}
+
+/* === Hero Section === */
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 0 1rem;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, #8f8d8b, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero p {
+  max-width: 700px;
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  color: #cfcfcf;
+}
+#section-inicio{
+  padding-bottom:80px ;
+  padding-top:10px ;
+}
+
+#inicio{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+#favor{
+   background: linear-gradient(to right, #1cad02, #134600fc);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+#contra {
+
+    background: linear-gradient(to right, #4c0600, #da1200fc);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+    
+}
+
+#depoimentos1{
+  display: flex;
+ flex-direction:column;
+ gap: 25px;
+  padding: 30px;
+  border-radius: 15px;
+  max-width: 1200px;
+  height: 920px;
+background-color:  #8f8d8b;
+}
+#depoimento-card1{
+   display: flex;
+  justify-content: center;
+  height: auto;
+  width: 1140px;
+  background-color: #1e1e1e;
+  border: 1px solid #940000;
+  border-radius: 15px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  transition: transform 0.3s, box-shadow 0.3s;
+
+}
+#depoimento-card2{
+   display: flex;
+  justify-content: center;
+  height: auto;
+  width: 1140px;
+  background-color: #1e1e1e;
+  border: 1px solid #009414;
+  border-radius: 15px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  transition: transform 0.3s, box-shadow 0.3s;
+
+}
+.depoimentos2{
+ 
+}
+
+#depoimento-card1:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgb(0, 0, 0);
+}
+#depoimento-card2:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgb(0, 0, 0);
+}
+.texto-foto{
+  text-align: center;
+  padding: 10px;
+ 
+  border-radius: 15px;
+  background-color: #0c0c0c;
+   max-width: 220px;
+  max-height: 300px;
+}
+#texto-miguel{
+  margin: 20px;
+}
+#img1{
+  
+  margin-bottom: 30px;
+  border-radius: 100%;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+/* === Sessões === */
+section {
+  padding: 5rem 0;
+}
+
+.titulo {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.titulo h2 {
+  font-size: 3rem;
+  background: linear-gradient(135deg, #002794, #76a7cf);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+
+/* === Cards de opinião === */
+.opiniao-card {
+  background-color: #1e1e1e;
+  border: 1px solid #002794;
+  border-radius: 15px;
+  padding: 2rem;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.opiniao-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 30, 197, 0.39);
+}
+
+.opiniao-card i {
+  color: #76a7cf;
+  font-size: 2rem;
+}
+
+/* === Formulário === */
+form {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  border-radius: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  border: 1px solid #002794;
+}
+
+.btn-enviar {
+  background: linear-gradient(135deg, #002794, #76a7cf);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 0.7rem 2rem;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn-enviar:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(9, 167, 240, 0.3);
+}
+
+/* === Footer === */
+footer {
+  text-align: center;
+  padding: 2rem 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  color: #999;
+  font-size: 0.9rem;
+  background-color: #0c0c0c;
+}

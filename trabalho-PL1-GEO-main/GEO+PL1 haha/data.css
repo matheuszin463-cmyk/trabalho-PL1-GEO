@@ -1,0 +1,97 @@
+/* === Reset e base === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-image: url('fotos/boanoitecinderela.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #e7e7e7;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+h1, h2, .btn {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+/* === Navbar === */
+.navbar {
+  padding: 1.5rem 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.navbar-brand {
+  font-size: 1.8rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, #002794, #76a7cf);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav-link {
+  color: #354dd4;
+  margin-left: 2rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #ffffff;
+}
+
+/* === Hero Section === */
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 0 1rem;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, #8f8d8b, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero p {
+  max-width: 700px;
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  color: #cfcfcf;
+}
+
+/* === Sessões === */
+section {
+  padding: 5rem 0;
+}
+
+.titulo {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.titulo h2 {
+  font-size: 3rem;
+  background: linear-gradient(135deg, #002794, #76a7cf);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
